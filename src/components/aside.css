@@ -1,0 +1,218 @@
+.card {
+    height: 100%;
+    position: absolute;
+    background-color: #0b2973;
+    color: #cbd4e7;
+    font-family: 'VTB Group UI', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    z-index: 2;
+    /* padding-left: 33px; */
+}
+
+.card__type {
+    margin-left: 33px;
+    color: #cbd4e7;
+    margin-top: 26px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.card__location {
+    margin-left: 33px;
+    display: flex;
+}
+
+.card__address {
+    margin-top: 26px;
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.card__address span {
+    color: #c6c7c8;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card__distance {
+    margin-top: 30px;
+    margin-left: 28px;
+    color: #88c8eb;
+
+    font-family: VTB Group UI;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card__hours {
+    margin-left: 33px;
+    display: flex;
+    margin-top: 17px;
+}
+
+.card__opening-hours {
+    color: #e4f6ff;
+    font-size: 12px;
+    font-weight: 500;
+}
+/* .card__opening-hours::after {
+    content: url('/icons/down.svg');
+  } */
+
+.card__time-left {
+    margin-left: 33px;
+    color: #9adefc;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card__availability {
+    margin-left: 33px;
+    margin-top: 16px;
+    color: #60cf50;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/* .card___availability::after {
+    content: url('/icons/');
+  } */
+
+.card__phone {
+    margin-left: 33px;
+    display: flex;
+    margin-top: 24px;
+}
+
+.card__tel-icon {
+}
+
+.card__tel {
+    position: relative;
+    margin-left: 26px;
+    color: #fff;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.card__tel::before {
+    position: absolute;
+    content: '';
+    background-image: url(../images/phone-icon.svg);
+    background-size: contain;
+    width: 14px;
+    height: 14px;
+    top: 0;
+    left: -26px;
+}
+
+.card__divider {
+    margin-top: 20px;
+    width: 489px;
+    height: 1px;
+    background-color: #34549a;
+}
+.card__services {
+    margin-left: 33px;
+    margin-top: 20px;
+    color: #cbd4e7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.card__services-items {
+    margin-left: 33px;
+    margin-top: 24px;
+}
+
+.card__services-item {
+    color: #898989;
+    margin-top: 14px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card__services-item.active {
+    color: #fff;
+}
+
+.card__accessibility {
+    display: flex;
+    margin-top: 20px;
+}
+
+.card__accessibility-left {
+    margin-right: 56px;
+    margin-left: 60px;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card__accessibility-right {
+    flex-direction: column;
+    color: #cbd4e7;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 8px;
+}
+
+.card__accessibility-item {
+    margin-bottom: 8px;
+}
+.card__btns-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 0 25px;
+    /* justify-content: space-between; */
+}
+.card__button {
+    display: block;
+    /* max-width: 250px; */
+    margin: 0 auto;
+    /* display: flex; */
+    margin-top: 25px;
+
+    /* margin-right: 25px; */
+    padding: 15px 37px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    gap: 10px;
+    border-radius: 10px;
+    background: #cbd4e7;
+    border: 0;
+
+    color: #0b2973;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* .card__button:last-of-type {
+    margin-right: 0;
+} */

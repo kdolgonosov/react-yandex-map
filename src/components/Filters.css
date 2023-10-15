@@ -1,0 +1,61 @@
+.filters {
+    width: 460px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    top: 28px;
+    left: 16px;
+    height: 100%;
+    z-index: 1;
+}
+.filters__input {
+    border: 0;
+    border-radius: 10px;
+    padding: 17px 133px 17px 32px;
+    color: #58595b;
+    font-family: VTB Group UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.filters__bottom {
+    background-color: #34549a;
+    padding: 29px 32px;
+    border-radius: 10px;
+}
+.filters__bottom_btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.filters__bottom_btns-item {
+    color: #657fb5;
+    font-family: VTB Group UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 0;
+    height: 44px;
+    padding: 8px 32px;
+    border-radius: 10px;
+    background: rgba(217, 217, 217, 0.8);
+}
+.filters__bottom_btns-item_type_active {
+    color: #002881;
+    background: #fff;
+}
+.filters__bottom_form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.filters__bottom_label {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}

@@ -1,38 +1,129 @@
+@import '../vendor/fonts.css';
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+body {
+    margin: 0;
+}
+.page {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 52px 51px;
+}
+.header__logo {
+    display: block;
+    /* margin: 52px 0; */
+    background-image: url(../images/logo.png);
+    width: 119px;
+    height: 42px;
+}
+.content {
+    background-color: #f4f7fa;
+    padding: 36px 51px 67px;
+}
+.content__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 491px;
+    border-bottom: 4px solid #cbd4e7;
+    margin-bottom: 24px;
+}
+.content__header_item {
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+    color: #0af;
+    font-family: VTB Group UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    z-index: 1;
+    transition: opacity 0.4s linear;
+}
+.content__header_item:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.content__header_item_type_active {
+    margin-bottom: -4px;
+    border-bottom: 4px solid #0af;
+}
+.content__header_item_type_active:hover {
+    cursor: default;
+    opacity: 1;
+}
+.content__map-container {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.content__map {
+    /* border-radius: 10px; */
+    width: 100%;
+    height: 717px;
+}
+.balloon {
+    border: 1px solid red;
+    width: 100vw;
+}
+
+.driver-card {
+    width: 240px;
+    height: 400px;
+}
+
+.ymaps-2-1-79-balloon {
+    box-shadow: none !important;
+}
+
+.ymaps-2-1-79-balloon__content {
+    padding: 0 !important;
+    background: transparent !important;
+    margin: 0 !important;
+}
+
+.ymaps-2-1-79-balloon__layout {
+    background: transparent !important;
+    border: none !important;
 }

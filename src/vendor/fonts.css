@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'VTBGroupUIWebBook';
+    src: url(../fonts/VTBGroupUI-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'VTBGroupUIWebMedium';
+    src: url(../fonts/VTBGroupUI-Medium.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'VTBGroupUIWebLight';
+    src: url(../fonts/VTBGroupUI-Light.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'VTBGroupUIWebDemiBold';
+    src: url(../fonts/VTBGroupUI-DemiBold.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'VTBGroupUIWebBold';
+    src: url(../fonts/VTBGroupUI-Bold.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
